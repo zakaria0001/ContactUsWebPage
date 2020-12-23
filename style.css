@@ -1,0 +1,221 @@
+body{
+    background-color:#252523;
+margin-left: 5%;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.big-container{
+width:100%;
+height:100%;
+margin: 10px ;
+background-color: #333532;
+
+
+}
+section#sec {
+    height:max-content;
+    margin: 100px ;
+
+}
+.mini-container{
+    width: 50%;
+color:gold;
+margin: 50px;
+padding-top: 1px;
+background-color:#333532;
+
+
+}
+.mini-container h5{
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.box form{
+    margin-top: 70px;
+    display :flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-center{
+	color:#fff;	
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+
+.input-container{
+	position:relative;
+    margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	color:#9B870C;	
+    pointer-event:none;
+	transition: all 0.1s ease-in-out;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid gold;  
+  background:transparent;
+
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:gold;
+
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid yellow;	
+}
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+	
+}
+.input-container input{
+width: 300px;
+}
+.input-container input .firstname{
+margin-left: 250px;
+}
+    hr{
+width: 30px;
+border: none;
+    }
+    .input-containermess input{ 
+        border:0;
+        border-bottom:1px solid gold;  
+        background:transparent;
+      
+        padding:8px 0 5px 0;
+        font-size:16px;
+        color:gold;
+        width: 630px;
+
+      }
+      .input-containermess {
+        position:relative;
+        margin-bottom:25px;
+    }
+    .input-containermess  label{
+        position:absolute;
+        top:0px;
+        left:0px;
+        font-size:16px;
+        color:#9B870C;	
+        pointer-event:none;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .input-containermess  input:focus{ 
+     border:none;	
+     outline:none;
+     border-bottom:1px solid yellow;	
+    }
+    .input-containermess  input:focus ~ label,
+    .input-containermess  input:valid ~ label{
+        top:-12px;
+        font-size:12px;
+        
+    }
+.Sub{
+    background-color: GOLD;
+    width: 180px;
+    height: 60px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 900;
+border-radius: 4px;
+position: relative;
+left: 450px;
+top: 30px;
+text-align: center;
+position: relative;
+animation: anim-glow 2s ease infinite;
+font-size: 18px;
+}
+@keyframes anim-glow {
+	0% {
+		box-shadow: 0 0 Gold;
+	}
+	100% {
+		box-shadow: 0 0 10px 8px transparent;
+	}
+}
+.left{display: flex;}
+
+.mini-container2{
+width: 50%;
+color:gold;
+padding-top: 20px;
+background-color:white;
+padding-left: 60px;
+max-height: 100%;
+
+}
+
+
+
+
+
+.mini-container2 li {
+    color: black;
+    display: inline;
+ margin-right: 30px;
+ margin-left: 60px;
+ font-family: 'Andika New Basic', sans-serif;
+ }
+
+.mini-container2 .contact  h2 {
+
+color: black;
+font-size: 30px;
+letter-spacing: 5px;
+padding-bottom: 20px;
+
+}
+.mini-container2 .contact{
+    padding-top: 100px;
+color: black;
+
+}
+.mini-container2 .contact h4{
+    font-family: 'Andika New Basic', sans-serif;
+font-size:15px;
+}
+.social{
+    display: flex;
+}
+.fb{
+
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 100%;
+background-color: white;
+}
+.linkedin{
+width: 50px;
+height: 50px;
+border: none;
+border-radius: 100%;
+background-color: white;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 100%;
+    background-color: white;
+    }
